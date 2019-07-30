@@ -31,7 +31,7 @@ ubuntu:
 
 # To run
 
-"java -jar scanToDo-1.0-SNAPSHOT.jar"
+"java -jar target/scanToDo-1.0-SNAPSHOT.jar"
 
 
 # Expected output
