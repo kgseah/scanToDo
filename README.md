@@ -39,7 +39,11 @@ Scanning for below file type
 .js .go
 ------------------------------------
 Enter the path to scan:
+
 c:\test
+
 c:\test\subfolder\subsubfolder\hello.go -- Line number 1
+
 c:\test\subfolder\subsubfolder\hello.go -- Line number 9
+
 c:\test\subfolder\test.js -- Line number 1
