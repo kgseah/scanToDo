@@ -9,14 +9,14 @@ For WINDOWS 10
 https://www.java.com/en/download/faq/win10_faq.xml
 
 Alternatively can run the command below
-chocolatey install java 8
+"chocolatey install java 8"
 
 For MAC
 Kindly follow the guide on the link below
 https://java.com/en/download/help/mac_install.xml
 
 Alternatively
-brew cask install java
+"brew cask install java"
 
 
 For linux
@@ -24,13 +24,15 @@ Kindly follow the guide on the link below
 https://java.com/en/download/help/linux_x64_install.xml
 
 centos/rhel: 
-sudo yum install java-1.8.0-openjdk
+"sudo yum install java-1.8.0-openjdk"
 
 ubuntu: 
-sudo apt install openjdk-8-jdk 
+"sudo apt install openjdk-8-jdk "
 
 # To run
-java -jar scanToDo-1.0-SNAPSHOT.jar
+
+"java -jar scanToDo-1.0-SNAPSHOT.jar"
+
 
 # Expected output
 
