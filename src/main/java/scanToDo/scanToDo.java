@@ -36,7 +36,8 @@ public class scanToDo {
                                     while (scanner.hasNextLine()) {
                                         String line = scanner.nextLine();
                                         lineNum++;
-                                        if (line.contains("TODO")) {
+                                        //Check for lower case as well
+                                        if (line.toLowerCase().contains("TODO".toLowerCase())) {
                                             System.out.println(f.getAbsoluteFile() + " -- Line number " + lineNum);
                                             counter++;
                                         }
